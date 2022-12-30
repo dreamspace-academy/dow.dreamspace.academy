@@ -1,22 +1,23 @@
-// home-content Dom
-const home_btn = document.getElementById('home')
+// homecontent Dom
+const home_btn = document.getElementById('home');
 home_btn.onclick = Home;
-
-
+const About_btn = document.getElementById('About');
+About_btn.onclick = About;
 
 
 
 $(function () {
     $("#headerbar").load("./importFiles/navbar.html");
+    $("#maincontent").load("./importFiles/homecontent.html");
     $("#footerbar").load("./importFiles/footerbar.html");
 });
-
-
-
-
-
-function Home(params) {
+function Home() {
     $(function () {
         $("#maincontent").load("./importFiles/homecontent.html");
     });
-}
+};
+function About() {
+    $(function () {
+        $("#maincontent").load("./importFiles/Aboutcontent.html");
+    });
+};
