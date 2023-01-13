@@ -674,7 +674,7 @@ section.main-banner {
   margin-top: 0px;
 }
 
-.main-banner {
+.main-banner {  
   padding-top: 180px;
 }
 
@@ -740,6 +740,17 @@ section.main-banner {
   z-index: 2;
 }
 
+.header-text .bg-image {
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 180px; */
+  position: absolute;
+  top: 12vh;
+  right: 0%;
+  left: 0%;
+  opacity:20% ;
+}
 
 /*
 ---------------------------------------------
