@@ -983,6 +983,10 @@ section.simple-cta {
   padding: 180px 0px 180px 0px;
 }
 
+.simple-cta .container .row .img{
+  display: flex;
+}
+
 section.simple-cta .left-image {
   margin-right: 45px;
 }
