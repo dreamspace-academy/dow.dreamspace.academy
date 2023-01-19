@@ -895,8 +895,10 @@ section.our-courses ul.nacc li .left-image {
 }
 
 section.our-courses ul.nacc li .left-image img {
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 section.our-courses ul.nacc li .left-image .price h6 {
