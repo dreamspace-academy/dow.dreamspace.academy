@@ -51,7 +51,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato-Bold';
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -74,7 +74,8 @@ ul {
 }
 
 p {
-  font-size: 14px;
+  font-family:Lato-Thin ;
+  font-size: 20px;
   line-height: 25px;
   color: #4a4a4a;
 }
@@ -92,7 +93,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: 'Lato';
+  font-family: 'Lato-Black';
 }
 
 ::selection {
