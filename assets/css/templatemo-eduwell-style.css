@@ -51,6 +51,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
+  text-align: justify;
   font-family: 'Lato-Bold';
   font-weight: 400;
   background-color: #fff;
@@ -74,6 +75,7 @@ ul {
 }
 
 p {
+  text-align: justify;
   font-family:Lato-Thin ;
   font-size: 20px;
   line-height: 25px;
@@ -92,6 +94,7 @@ global styles
 */
 html,
 body {
+  text-align: justify;
   background: #fff;
   font-family: 'Lato-Black';
 }
