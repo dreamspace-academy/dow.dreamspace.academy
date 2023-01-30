@@ -654,7 +654,7 @@ section.main-banner {
 }
 
 .main-banner .right-image {
-  margin-left: 120px;
+  margin-left: 0px;
   position: relative;
   z-index: 2;
 }
