@@ -1,7 +1,7 @@
 
 @font-face {
   font-family:"Lato" ;
-  src: url('../fonts/Lato-Black.ttf');
+  src: url('../fonts/Lato-Light.ttf');
 } 
 
 
@@ -59,6 +59,7 @@ html, body {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family:"Lato" !important 
 }
 
 a {
@@ -76,7 +77,7 @@ ul {
 
 p {
   text-align: justify;
-  font-family:Lato-Thin ;
+  /* font-family:Lato-Thin ; */
   font-size: 20px;
   line-height: 25px;
   color: #4a4a4a;
