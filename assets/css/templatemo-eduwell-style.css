@@ -2,7 +2,7 @@
 @font-face {
   font-family:"Lato" ;
   src: url('../fonts/Lato-Black.ttf');
-}
+} 
 
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
@@ -51,6 +51,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
+  text-align: justify;
   font-family: 'Lato-Bold';
   font-weight: 400;
   background-color: #fff;
@@ -74,6 +75,7 @@ ul {
 }
 
 p {
+  text-align: justify;
   font-family:Lato-Thin ;
   font-size: 20px;
   line-height: 25px;
@@ -92,6 +94,7 @@ global styles
 */
 html,
 body {
+  text-align: justify;
   background: #fff;
   font-family: 'Lato-Black';
 }
@@ -651,7 +654,7 @@ section.main-banner {
 }
 
 .main-banner .right-image {
-  margin-left: 120px;
+  margin-left: 0px;
   position: relative;
   z-index: 2;
 }
