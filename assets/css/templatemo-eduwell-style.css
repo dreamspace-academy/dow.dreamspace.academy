@@ -959,6 +959,8 @@ section.simple-cta {
   background-size: cover;
   width: 100%;
   padding: 180px 0px 180px 0px;
+  text-align: center;
+  
 }
 
 .simple-cta .container .row .img{
