@@ -834,6 +834,51 @@ section.our-courses .naccs .menu div {
   border: 3px solid rgba(219,138,222,0.5);
 }
 
+@media (max-width:993px) {
+  .menu {  
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    height: max-content;
+    background-color: brown;
+  }
+
+  .menu i {
+    display: none;
+  }
+
+  .menu .gradient-border {
+    width: fit-content;
+    padding: 0;
+    height: fit-content;
+    align-items: center;
+  }
+
+}
+
+@media (max-width:768px) {
+  .menu {  
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    height: max-content;
+    background-color: brown;
+  }
+
+  .menu i {
+    display: none;
+  }
+  .menu span {
+    font-size: 14px;
+    line-break: inherit;
+  }
+}
+
+
 section.our-courses .naccs .menu div.active {
   color: #dc8cdb;
   border: 3px solid rgba(219,138,222,1);
