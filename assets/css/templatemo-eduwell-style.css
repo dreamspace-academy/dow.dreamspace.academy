@@ -1,10 +1,39 @@
+/*
 
-@font-face {
-  font-family:"Lato" ;
-  src: url('../fonts/Lato-Light.ttf');
-} 
+TemplateMo 573 EduWell
 
+https://templatemo.com/tm-573-eduwell
 
+*/
+
+/* ---------------------------------------------
+Table of contents
+------------------------------------------------
+01. font & reset css
+02. reset
+03. global styles
+04. header
+05. banner
+06. features
+07. testimonials
+08. contact
+09. footer
+10. preloader
+11. search
+12. portfolio
+
+--------------------------------------------- */
+/* 
+---------------------------------------------
+font & reset css
+--------------------------------------------- 
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -51,15 +80,13 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  text-align: justify;
-  font-family: 'Lato-Bold';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family:"Lato" !important 
 }
 
 a {
@@ -76,9 +103,7 @@ ul {
 }
 
 p {
-  text-align: justify;
-  /* font-family:Lato-Thin ; */
-  font-size: 20px;
+  font-size: 14px;
   line-height: 25px;
   color: #4a4a4a;
 }
@@ -95,9 +120,8 @@ global styles
 */
 html,
 body {
-  text-align: justify;
   background: #fff;
-  font-family: 'Lato-Black';
+  font-family: 'Open Sans', sans-serif;
 }
 
 ::selection {
@@ -650,12 +674,12 @@ section.main-banner {
   margin-top: 0px;
 }
 
-.main-banner {  
+.main-banner {
   padding-top: 180px;
 }
 
 .main-banner .right-image {
-  margin-left: 0px;
+  margin-left: 120px;
   position: relative;
   z-index: 2;
 }
@@ -716,17 +740,6 @@ section.main-banner {
   z-index: 2;
 }
 
-.header-text .bg-image {
-   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* padding-top: 180px; */
-  position: absolute;
-  top: 12vh;
-  right: 0%;
-  left: 0%;
-  opacity:20% ;
-}
 
 /*
 ---------------------------------------------
@@ -834,51 +847,6 @@ section.our-courses .naccs .menu div {
   border: 3px solid rgba(219,138,222,0.5);
 }
 
-@media (max-width:993px) {
-  .menu {  
-    display: flex;
-    width: fit-content;
-    justify-content: space-between;
-    margin: auto;
-    padding: 10px;
-    height: max-content;
-    background-color: brown;
-  }
-
-  .menu i {
-    display: none;
-  }
-
-  .menu .gradient-border {
-    width: fit-content;
-    padding: 0;
-    height: fit-content;
-    align-items: center;
-  }
-
-}
-
-@media (max-width:768px) {
-  .menu {  
-    display: flex;
-    width: fit-content;
-    justify-content: space-between;
-    margin: auto;
-    padding: 10px;
-    height: max-content;
-    background-color: brown;
-  }
-
-  .menu i {
-    display: none;
-  }
-  .menu span {
-    font-size: 14px;
-    line-break: inherit;
-  }
-}
-
-
 section.our-courses .naccs .menu div.active {
   color: #dc8cdb;
   border: 3px solid rgba(219,138,222,1);
@@ -916,10 +884,8 @@ section.our-courses ul.nacc li .left-image {
 }
 
 section.our-courses ul.nacc li .left-image img {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 section.our-courses ul.nacc li .left-image .price h6 {
@@ -1004,14 +970,7 @@ section.simple-cta {
   background-size: cover;
   width: 100%;
   padding: 180px 0px 180px 0px;
-  text-align: center;
-  
 }
-
-.simple-cta .container .row .img{
-  display: flex;
-}
-
 
 section.simple-cta .left-image {
   margin-right: 45px;
