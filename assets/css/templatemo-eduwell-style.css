@@ -936,6 +936,12 @@ section.our-courses .naccs .menu div {
   border: 3px solid rgba(219, 138, 222, 0.5);
 }
 
+@media (min-width:1024px) {
+  .mediaquery-show {
+    display: none;
+  }
+}
+
 @media (max-width:1024px) {
   .mediaquery-hide {
     display: none;
