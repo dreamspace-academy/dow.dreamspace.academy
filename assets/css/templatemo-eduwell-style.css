@@ -3,15 +3,6 @@
   src: url('../fonts/Lato-Light.ttf');
 }
 
-/*  */
-@media only screen and (max-width: 1024px) {
-  .mediaquery {
-    display: flexbox;
-  }
-}
-
-/*  */
-
 
 html,
 body,
@@ -76,6 +67,13 @@ figcaption {
   border: 0;
   outline: 0;
 }
+
+/* .main-background-img {
+  background-image: url(../images/w1.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
 
 .clearfix:after {
   content: ".";
@@ -826,7 +824,6 @@ section.main-banner {
   top: 12vh;
   right: 0%;
   left: 0%;
-  bottom: 12vh;
   opacity: 20%;
 }
 
