@@ -822,11 +822,11 @@ section.main-banner {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* padding-top: 180px; */
   position: absolute;
   top: 12vh;
   right: 0%;
   left: 0%;
+  bottom: 12vh;
   opacity: 20%;
 }
 
@@ -940,6 +940,10 @@ section.our-courses .naccs .menu div {
   .mediaquery-show {
     display: none;
   }
+
+  .header-text .bg-image {
+    height: 600px;
+  }
 }
 
 @media (max-width:1024px) {
@@ -971,15 +975,6 @@ section.our-courses .naccs .menu div {
 }
 
 @media (max-width:768px) {
-  .menu {
-    display: flex;
-    width: fit-content;
-    justify-content: space-between;
-    margin: auto;
-    padding: 10px;
-    height: max-content;
-    background-color: brown;
-  }
 
   .menu i {
     display: none;
