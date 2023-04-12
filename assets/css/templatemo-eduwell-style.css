@@ -1159,7 +1159,7 @@ section.simple-cta .left-image {
 
 section.simple-cta h6 {
   font-size: 17px;
-  color: #fff;
+  color: #000080;
 }
 
 section.simple-cta h4 {
@@ -1171,7 +1171,7 @@ section.simple-cta h4 {
 }
 
 section.simple-cta p {
-  color: #fff;
+  color: #000080;
   margin-top: 30px;
   margin-bottom: 40px;
 }
