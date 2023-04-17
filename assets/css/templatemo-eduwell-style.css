@@ -380,7 +380,7 @@ header
   font-weight: 400;
   font-size: 14px;
   text-transform: capitalize;
-  color: #fff;
+  color: #000080;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -393,7 +393,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fff !important;
+  color: #000080 !important;
   opacity: 0.75;
 }
 
