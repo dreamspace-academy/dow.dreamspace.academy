@@ -399,7 +399,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fff !important;
+  color: #000080 !important;
   opacity: 1;
 }
 
