@@ -3,15 +3,6 @@
   src: url('../fonts/Lato-Light.ttf');
 }
 
-/*  */
-@media only screen and (max-width: 1024px) {
-  .mediaquery {
-    display: flexbox;
-  }
-}
-
-/*  */
-
 
 html,
 body,
@@ -76,6 +67,13 @@ figcaption {
   border: 0;
   outline: 0;
 }
+
+/* .main-background-img {
+  background-image: url(../images/w1.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
 
 .clearfix:after {
   content: ".";
@@ -282,7 +280,6 @@ section {
   line-height: 40px;
   font-size: 28px;
   font-weight: 900;
-  text-transform: capitalize;
   color: #111;
 }
 
@@ -383,7 +380,7 @@ header
   font-weight: 400;
   font-size: 14px;
   text-transform: capitalize;
-  color: #fff;
+  color: #000080;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -396,13 +393,13 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fff !important;
+  color: #000080 !important;
   opacity: 0.75;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fff !important;
+  color: #000080 !important;
   opacity: 1;
 }
 
@@ -826,7 +823,6 @@ section.main-banner {
   top: 12vh;
   right: 0%;
   left: 0%;
-  bottom: 12vh;
   opacity: 20%;
 }
 
@@ -941,8 +937,34 @@ section.our-courses .naccs .menu div {
     display: none;
   }
 
+  /* 
   .header-text .bg-image {
     height: 600px;
+  } */
+}
+
+/* @media (max-width:768px) {
+  .header-text .bg-image {
+    display: none;
+  }
+} */
+
+@media (max-width:992px) {
+  .header-text .bg-image {
+    display: none;
+  }
+}
+
+@media (min-width:1025px) {
+  .header-text .bg-image {
+    height: 900px;
+  }
+}
+
+
+@media (max-width:1178px) {
+  .header-text .bg-image {
+    height: 400px;
   }
 }
 
@@ -953,6 +975,16 @@ section.our-courses .naccs .menu div {
 
   .mediaquery-show {
     display: inline;
+  }
+
+  .header-text .bg-image {
+    height: 350px;
+  }
+}
+
+@media (min-width:1144px) {
+  .header-text .bg-image {
+    height: 500px;
   }
 }
 
@@ -1127,7 +1159,7 @@ section.simple-cta .left-image {
 
 section.simple-cta h6 {
   font-size: 17px;
-  color: #fff;
+  color: #000080;
 }
 
 section.simple-cta h4 {
@@ -1139,7 +1171,7 @@ section.simple-cta h4 {
 }
 
 section.simple-cta p {
-  color: #fff;
+  color: #000080;
   margin-top: 30px;
   margin-bottom: 40px;
 }
@@ -1395,7 +1427,7 @@ section.contact-us ul.social-icons li a:hover {
 
 p.copyright {
   text-align: center;
-  color: #fff;
+  color: #000080;
   margin: 40px 0px;
 }
 
