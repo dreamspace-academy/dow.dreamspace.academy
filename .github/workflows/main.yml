@@ -8,8 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       # Here is the deployment action
-      - name: Upload from public_html via FTP
-        uses: airvzxf/ftp-deployment-action@latest
+      - name: Upload to public_html via FTP
+        uses: dreamsofwomen/ftp-deployment-action@latest
         with:
           server: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
