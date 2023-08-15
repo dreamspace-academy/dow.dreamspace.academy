@@ -1,4 +1,4 @@
-name: CI -> Deploy to weleadpera.lk
+name: CI -> Deploy to dreamsofwomen.org
 on:
   push:
     branches: [ master ]
