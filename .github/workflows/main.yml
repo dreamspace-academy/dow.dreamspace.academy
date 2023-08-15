@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
       # Here is the deployment action
       - name: Upload to public_html via FTP
-        uses: dreamspace-academy/ftp-deployment-action@latest
+        uses: dreamspace-academy/dow.dreamspace.academy@latest
         with:
           server: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
