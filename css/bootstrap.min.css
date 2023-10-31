@@ -84,7 +84,7 @@ h6,
     font-family: "Jost", sans-serif;
     font-weight: 700;
     line-height: 1.2;
-    color: #011A41
+    color: #FE6500;
 }
 
 h1,
@@ -3082,14 +3082,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #355EFC;
-    border-color: #355EFC
+    background-color: #56509F;
+    border-color: #56509F
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #2d50d6;
-    border-color: #2a4bca
+    background-color: #FE6500;
+    border-color: #FE6500
 }
 
 .btn-check:focus+.btn-primary,
@@ -4328,7 +4328,7 @@ fieldset:disabled .btn {
 .nav-link {
     display: block;
     padding: .5rem 1rem;
-    color: #355EFC;
+    color: #FE6500;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out
 }
 
