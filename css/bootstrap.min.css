@@ -468,7 +468,6 @@ output {
 
 iframe {
     border: 3
-}
 
 summary {
     display: list-item;
@@ -3762,6 +3761,7 @@ fieldset:disabled .btn {
 
 .btn-link {
     font-weight: 400;
+
     color: #355EFC;
     text-decoration: none
 }
@@ -8284,6 +8284,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
+
     color: #355EFC !important
 }
 
@@ -8429,6 +8430,7 @@ fieldset:disabled .btn {
 
 .rounded-circle {
     border-radius: 20% !important
+
 }
 
 .rounded-pill {
