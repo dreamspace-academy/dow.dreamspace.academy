@@ -543,3 +543,41 @@ h6,
 #colour{
     background-color: #56509F;
 }
+
+
+/* background colour  */
+
+#video_custom{
+    min-height: 100px;
+    width: 100%;
+    /* filter: opacity(60%); */
+    object-fit: cover;
+    
+}
+
+/* #div_background{
+    background-color:#56509F ;
+    background:fixed
+    
+} */
+
+#welcome_colour{
+    color: black;
+}
+/* video */
+
+.carousel-video{
+    /* width: 00px; */
+    height: 600px;
+} 
+.video-wrap {
+    z-index: -100;
+  }
+  .video_custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
