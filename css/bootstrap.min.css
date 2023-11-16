@@ -84,7 +84,7 @@ h6,
     font-family: "Jost", sans-serif;
     font-weight: 700;
     line-height: 1.2;
-    color: #FE6500
+    color: #FE6500;
 }
 
 h1,
@@ -237,7 +237,7 @@ a {
 }
 
 a:hover {
-    color:#56509F
+    color: #2a4bca
 }
 
 a:not([href]):not([class]),
@@ -467,8 +467,7 @@ output {
 }
 
 iframe {
-    border: 0
-}
+    border: 3
 
 summary {
     display: list-item;
@@ -3082,21 +3081,21 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #fff;
-    background-color:#56509F;
-    border-color: #FE6500;
+    background-color: #56509F;
+    border-color: #56509F
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #56509F;
-    border-color: #FE6500;
+    background-color: #FE6500;
+    border-color: #FE6500
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #fff;
-    background-color: #56509F;
-    border-color: #FE6500;
+    background-color: #2d50d6;
+    border-color: #2a4bca;
     box-shadow: 0 0 0 .25rem rgba(83, 118, 252, 0.5)
 }
 
@@ -3762,12 +3761,13 @@ fieldset:disabled .btn {
 
 .btn-link {
     font-weight: 400;
-    color: #FE6500;
+
+    color: #355EFC;
     text-decoration: none
 }
 
 .btn-link:hover {
-    color: #FE6500;
+    color: #2a4bca
 }
 
 .btn-link:disabled,
@@ -4328,7 +4328,7 @@ fieldset:disabled .btn {
 .nav-link {
     display: block;
     padding: .5rem 1rem;
-    color: #355EFC;
+    color: #FE6500;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out
 }
 
@@ -8284,7 +8284,8 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #FE6500 !important
+
+    color: #355EFC !important
 }
 
 .text-secondary {
@@ -8368,7 +8369,7 @@ fieldset:disabled .btn {
 }
 
 .bg-dark {
-    background-color: #FE6500 !important
+    background-color: #011A41 !important
 }
 
 .bg-body {
@@ -8428,7 +8429,8 @@ fieldset:disabled .btn {
 }
 
 .rounded-circle {
-    border-radius: 50% !important
+    border-radius: 20% !important
+
 }
 
 .rounded-pill {
