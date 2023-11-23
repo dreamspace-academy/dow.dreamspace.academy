@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #355EFC;
+    --primary: #56509F;
     --secondary: #E93C05;
     --tertiary: #555555;
     --light: #DFE4FD;
@@ -225,7 +225,7 @@ h6,
 
 /*** Facts ***/
 .facts {
-    background: linear-gradient(rgba(53, 94, 252, .95), rgba(53, 94, 252, .95)), url(../img/bg.png);
+    background: linear-gradient(#56509F,#56509F), url(../img/bg.png);
 }
 
 
@@ -268,8 +268,8 @@ h6,
 }
 
 .service .nav .nav-link.active {
-    border-color: var(--primary) !important;
-    background: var(--primary);
+    border-color: #FE6500 !important;
+    background: #56509F;
 }
 
 .service .nav .nav-link.active h5 {
@@ -491,16 +491,16 @@ h6,
     top: 6px;
     left: 6px;
     border-radius: 16px;
-    background: var(--light);
+    background: #FE6500;
     transition: .5s;
 }
 
 .testimonial-carousel .owl-dot.active {
-    border-color: var(--primary);
+    border-color: #56509F;
 }
 
 .testimonial-carousel .owl-dot.active::after {
-    background: var(--primary);
+    background: #56509F;
 }
 
 
