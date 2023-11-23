@@ -61,9 +61,12 @@ h6,
     font-weight: 500;
 }
 
+.btn-primary{
+    color: black;
+}
 .btn-primary,
 .btn-outline-primary:hover {
-    color: var(--light);
+    color: #fff;
 }
 
 .btn-square {
@@ -507,7 +510,7 @@ h6,
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: var(--light);
+    /* color: var(--light); */
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -533,11 +536,11 @@ h6,
 }
 
 .copyright a {
-    color: var(--light);
+    /* color: var(--light); */
 }
 
 .copyright a:hover {
-    color: var(--primary);
+    /* color: var(--primary); */
 }
 
 #colour{
@@ -581,3 +584,34 @@ h6,
     width: 100%;
     height: 100%;
   }
+  .can-form{
+    background-color: #011A41;
+  }
+
+  /* form */
+  .form{
+    border-color: #FE6500;
+    border-radius: 2px;
+    /* background-color: #FE6500; */
+  }
+
+  /* service section  */
+.overly {
+    color:black;
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 2px;
+    height: 500px;
+    text-align: center;
+}
+.overly:hover{
+    border-radius: 5px;
+    color: #fff;
+    background-color: #56509F;
+    margin: 5 auto;
+    z-index: 3;
+    transition: all .5s;
+}
+
+

@@ -232,12 +232,12 @@ sup {
 }
 
 a {
-    color: #355EFC;
+    color: #fcf8e3;
     text-decoration: none
 }
 
 a:hover {
-    color: #2a4bca
+    color: #FE6500
 }
 
 a:not([href]):not([class]),
@@ -3088,8 +3088,8 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #FE6500;
-    border-color: #FE6500
+    background-color: #fff;
+    border-color: #fff
 }
 
 .btn-check:focus+.btn-primary,
@@ -3120,7 +3120,7 @@ fieldset:disabled .btn {
 
 .btn-primary:disabled,
 .btn-primary.disabled {
-    color: #fff;
+    color: black;
     background-color: #355EFC;
     border-color: #355EFC
 }
