@@ -123,7 +123,7 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color:#56509F;
 }
 
 @media (max-width: 991.98px) {
@@ -230,7 +230,7 @@ h6,
 
 
 /*** Callback ***/
-.callback {
+/* .callback {
     position: relative;
 }
 
@@ -243,11 +243,11 @@ h6,
     left: 0;
     background: linear-gradient(#56509F, #56509F), url(../img/bg.png);
     z-index: -1;
-}
+} */
 
 
 /*** Feature ***/
-.feature .feature-box,
+/* .feature .feature-box,
 .feature .feature-box * {
     transition: .5s;
 }
@@ -259,7 +259,7 @@ h6,
 
 .feature .feature-box:hover * {
     color: #FFFFFF !important;
-}
+} */
 
 
 /*** Service ***/
@@ -618,4 +618,9 @@ h6,
 
 .team-start{
     color: #56509F;
+}
+
+/* project link colour  */
+.project-colour{
+    color:#56509F;
 }
