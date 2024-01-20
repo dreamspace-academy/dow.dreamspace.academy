@@ -241,17 +241,20 @@
               to collaborate. Together, let's make a difference in empowering women in STEAM.</p>
           </div>
           <div id="form_status"></div>
+          <!-- https://docs.google.com/forms/d/1z8epCnhgSqcS7-qQDz0jggQEGP5t4Jof7pruIPW0W9I/edit -->
           <div class="contact-form">
-            <form type="POST" id="dow-contact" onSubmit="return valid_datas( this );" action="mail.php">
+            <form method="post" id="dow-contact" role="form" onSubmit="window.submitGoogleForm(this);"
+              action="https://docs.google.com/forms/d/1z8epCnhgSqcS7-qQDz0jggQEGP5t4Jof7pruIPW0W9I/formResponse">
               <p>
-                <input type="text" placeholder="Name" name="name" id="name">
-                <input type="email" placeholder="Email" name="email" id="email">
+                <input type="text" placeholder="Name" name="entry.842494675" id="name">
+                <input type="email" placeholder="Email" name="entry.1838818462" id="email">
               </p>
               <p>
-                <input type="tel" placeholder="Phone" name="phone" id="phone">
-                <input type="text" placeholder="Subject" name="subject" id="subject">
+                <input type="tel" placeholder="Phone" name="entry.2035665660" id="phone">
+                <input type="text" placeholder="Subject" name="entry.1469256439" id="subject">
               </p>
-              <p><textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
+              <p><textarea name="entry.1308286529" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+              </p>
               <input type="hidden" name="token" value="FsWga4&@f6aw" />
               <p><input type="submit" value="Submit"></p>
             </form>
@@ -321,6 +324,8 @@
   <script src="assets/js/sticker.js"></script>
   <!-- main js -->
   <script src="assets/js/main.js"></script>
+  <!-- Google form JS -->
+  <script src="./assets/js/google_form.js"></script>
 </body>
 
 </html>
