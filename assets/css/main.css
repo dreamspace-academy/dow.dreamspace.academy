@@ -2326,7 +2326,7 @@ ul.social-link-team li a {
   border-radius: 3px;
 }
 
-.contact-form form p input[type='text'] {
+.contact-form form p input[type='submit'] {
   color: #ffffff;
 }
 
