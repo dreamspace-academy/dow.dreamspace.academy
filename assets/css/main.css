@@ -1624,27 +1624,15 @@ div.owl-controls,
 
 ----------------------------------------------------------------------------- */
 .news-bg-1 {
-  background-image: url(../img/latest-news/news-bg-1.jpg);
+  background-image: url(../img/strories/story-1.jpg);
 }
 
 .news-bg-2 {
-  background-image: url(../img/latest-news/news-bg-2.jpg);
+  background-image: url(../img/strories/story-2.jpg);
 }
 
 .news-bg-3 {
-  background-image: url(../img/latest-news/news-bg-3.jpg);
-}
-
-.news-bg-4 {
-  background-image: url(../img/latest-news/news-bg-4.jpg);
-}
-
-.news-bg-5 {
-  background-image: url(../img/latest-news/news-bg-5.jpg);
-}
-
-.news-bg-6 {
-  background-image: url(../img/latest-news/news-bg-6.jpg);
+  background-image: url(../img/strories/story-3.jpg);
 }
 
 .latest-news-bg {
@@ -1688,7 +1676,7 @@ p.excerpt {
 }
 
 .latest-news a.boxed-btn {
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .news-text-box {
@@ -2132,7 +2120,7 @@ a.video-play-btn {
 .abt-section {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #e2e2e2;
+  background-color: #f3f3f3;
 }
 
 .abt-section .abt-text {
@@ -2822,4 +2810,25 @@ table.order-details tbody td {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
+}
+
+a.video-play-btn-1 {
+  position: absolute;
+  background-color: #b0009c;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 52px;
+  border-radius: 50%;
+  font-size: 20px;
+  padding-left: 5px;
+  display: block;
+  z-index: 2;
+  top: 25%;
+  margin-top: -45px;
+  -webkit-box-shadow: 0 0 20px #adadad;
+  box-shadow: 0 0 20px #adadad;
+  left: 50%;
+  margin-left: -45px;
 }
