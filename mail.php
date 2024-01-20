@@ -38,7 +38,7 @@ Message: <br /><br />
 $body = ob_get_contents();
 ob_end_clean();
 
-$to = 'rathees@dreamspace.academy';
+$to = 'ratheesreo@gmail.com';
 
 $s = mail($to, $subject, $body, $headers, "-t -i -f $from");
 
